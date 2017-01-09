@@ -41,6 +41,7 @@ class Racker
 
   def play
     @request.session[:name] = @request.params['name']
+    #game.user_name = @request.params['name']
     redirect_to('/game')
   end
 
@@ -51,7 +52,13 @@ class Racker
   end
 
   def hints
-    @request.session[:hint] = game.hint_count
+    if game
+      if game.hint_count > 0
+        @request.session[:hint_value] = game.get_hint_digit
+        game.hint_count -= 1
+      end
+      @request.session[:hint] = game.hint_count
+    end
     redirect_to('/game')
   end
 

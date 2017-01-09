@@ -1,0 +1,8 @@
+--- !ruby/object:Codebreaker::Player
+name: pppp
+score: 10
+is_win: false
+--- !ruby/object:Codebreaker::Player
+name: tttt
+score: 12
+is_win: false
