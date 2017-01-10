@@ -1,5 +1,5 @@
 PATH
-  remote: ../ruby-code-breaker/
+  remote: ./lib/
   specs:
     codebreaker (0.1.0)
 
