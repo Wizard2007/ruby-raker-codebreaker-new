@@ -14,3 +14,8 @@
 ruby-raker-codebreaker-new.gemspec.save
 *.lock
 .idea/workspace.xml
+*.rakeTasks
+.idea/misc.xml
+*.iml
+.idea/modules.xml
+*.xml
