@@ -1,4 +1,7 @@
+require './lib/codebreaker/version'
 
+require './lib/codebreaker/game'
+require './lib/codebreaker/console_service'
 require 'yaml'
 module Codebreaker
 
