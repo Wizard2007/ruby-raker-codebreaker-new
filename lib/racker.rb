@@ -1,5 +1,5 @@
 require 'erb'
-require 'codebreaker'
+require './lib/codebreaker'
 
 class Racker
   include Codebreaker

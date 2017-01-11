@@ -1,7 +1,7 @@
 PATH
-  remote: ./lib/
-  specs:
-    codebreaker (0.1.0)
+  #remote: ./lib/
+  #specs:
+  #  codebreaker (0.1.0)
 
 PATH
   remote: .
