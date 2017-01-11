@@ -1,9 +1,4 @@
 PATH
-  #remote: ./lib/
-  #specs:
-  #  codebreaker (0.1.0)
-
-PATH
   remote: .
   specs:
     ruby-raker-codebreaker-new (0.1.0)
