@@ -27,7 +27,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.13)
-  codebreaker (= 0.1.0)!
   rake (~> 10.0)
   rspec (~> 3.0)
   ruby-raker-codebreaker-new!
